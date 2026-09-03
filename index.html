@@ -161,6 +161,17 @@ section { padding: clamp(2.5rem, 6vw, 4rem) 0; border-bottom: 1px solid var(--ru
   background: var(--paper-warm);
 }
 
+/* Semantic lists: keep the custom look, drop the browser bullets */
+.problem-stack, .services-grid, .tag-row, .faq-list { list-style: none; }
+
+/* FAQ */
+.faq-list { display: flex; flex-direction: column; gap: 1.25rem; }
+.faq-item { border-bottom: 1px solid var(--rule); padding-bottom: 1.25rem; }
+.faq-item:last-child { border-bottom: none; padding-bottom: 0; }
+.faq-q { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; color: var(--ink); line-height: 1.3; margin-bottom: 0.4rem; }
+.faq-a { font-size: 14px; color: var(--ink-soft); line-height: 1.7; }
+.faq-a a { color: var(--accent); }
+
 /* CLOSING — why it works + CTA */
 .why-lead {
   font-family: var(--font-display);
@@ -245,7 +256,7 @@ footer {
 <section>
   <div class="wrap">
     <p class="section-eyebrow">Medical content consultancy</p>
-    <p class="section-title">Verified medicine. Clear words.</p>
+    <h1 class="section-title">Verified medicine. Clear words.</h1>
     <p class="section-sub">Vericeus helps healthcare agencies, med comms teams, and health brands turn rough drafts, SME notes, and AI-assisted copy into cleaner, publication-ready content for internal review. We combine clinical perspective from a family physician with 25 years of practice and content strategy from a B2B writer with 10+ years of agency experience. Every draft goes through a physician-led content review layer to improve clarity, structure, clinical sense, and medical accuracy before it goes back to your team. One point of contact. Fewer handoffs.</p>
     <div style="display:flex; gap:12px; flex-wrap:wrap;">
       <a href="mailto:cbernardo@vericeus.com" style="background:var(--ink);color:var(--paper);border:none;padding:0.65rem 1.4rem;font-family:var(--font-body);font-size:13px;font-weight:500;cursor:pointer;letter-spacing:0.02em;text-decoration:none;display:inline-block;transition:background 0.2s;" onmouseover="this.style.background='var(--accent)'" onmouseout="this.style.background='var(--ink)'">Work with us ↗</a>
@@ -257,58 +268,58 @@ footer {
 <section>
   <div class="wrap">
     <p class="section-eyebrow">The problem we solve</p>
-    <p class="section-title">Most health content fails at one end or the other.</p>
+    <h2 class="section-title">Most health content fails at one end or the other.</h2>
     <p class="section-sub">Healthcare content often breaks down between clinical accuracy and clear communication. General writers may miss medical nuance. Clinical experts may not have time to write, structure, or polish. That gap creates more revisions, slower approvals, and heavier cleanup before content is ready to publish.</p>
-    <div class="problem-stack">
-      <div class="problem-row">
+    <ul class="problem-stack">
+      <li class="problem-row">
         <div class="problem-icon icon-x">✕</div>
         <p class="problem-text">Claims can sound unclear, unsupported, outdated, or risky.</p>
-      </div>
-      <div class="problem-row">
+      </li>
+      <li class="problem-row">
         <div class="problem-icon icon-x">✕</div>
         <p class="problem-text">Expert input can stay buried in notes, calls, or rough drafts.</p>
-      </div>
-      <div class="problem-row">
+      </li>
+      <li class="problem-row">
         <div class="problem-icon icon-check">✓</div>
         <p class="problem-text"><strong>Vericeus</strong> brings clinical perspective and content strategy into one workflow. We turn complex healthcare drafts into clearer, publication-ready content.</p>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
 </section>
 
 <section id="services">
   <div class="wrap">
     <p class="section-eyebrow">Services</p>
-    <p class="section-title">What we deliver</p>
-    <div class="services-grid">
-      <div class="service-card">
+    <h2 class="section-title">What we deliver</h2>
+    <ul class="services-grid">
+      <li class="service-card">
         <div class="service-num">01</div>
-        <p class="service-title">Healthcare content writing</p>
+        <h3 class="service-title">Healthcare content writing</h3>
         <p class="service-desc">Blog posts, whitepapers, explainers, and patient education materials written from your brief, source notes, SME input, or existing draft. We turn complex healthcare information into clear content for patients, buyers, and professional audiences.</p>
-      </div>
-      <div class="service-card">
+      </li>
+      <li class="service-card">
         <div class="service-num">02</div>
-        <p class="service-title">Search-informed healthcare content</p>
+        <h3 class="service-title">Search-informed healthcare content</h3>
         <p class="service-desc">Healthcare content shaped for SEO, AEO, and GEO workflows without losing clinical clarity or human readability. We support search intent, answer-first sections, FAQs, headings, summaries, and source-backed explanations.</p>
-      </div>
-      <div class="service-card">
+      </li>
+      <li class="service-card">
         <div class="service-num">03</div>
-        <p class="service-title">Health-tech marketing copy</p>
+        <h3 class="service-title">Health-tech marketing copy</h3>
         <p class="service-desc">Website copy, product pages, landing pages, and campaign content for digital health startups, insurers, healthcare platforms, and medical-adjacent brands. We translate clinical ideas, product features, and technical details into messaging people can understand.</p>
-      </div>
-      <div class="service-card">
+      </li>
+      <li class="service-card">
         <div class="service-num">04</div>
-        <p class="service-title">Clinical content audits</p>
+        <h3 class="service-title">Clinical content audits</h3>
         <p class="service-desc">Review of existing content to flag unclear medical phrasing, unsupported claims, outdated guidance, and statements that need a closer clinical look. You get practical notes, suggested edits, and a cleaner version that is easier to move toward publication.</p>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     <p class="section-eyebrow">The name</p>
-    <p class="section-title">Two roots. One promise.</p>
+    <h2 class="section-title">Two roots. One promise.</h2>
     <div class="origin-grid">
       <div class="origin-cell">
         <div class="origin-word veri">Veri</div>
@@ -328,36 +339,69 @@ footer {
 <section id="team">
   <div class="wrap">
     <p class="section-eyebrow">The team</p>
-    <p class="section-title">Two disciplines, one workflow</p>
+    <h2 class="section-title">Two disciplines, one workflow</h2>
     <div class="team-grid">
       <div class="team-card">
         <div class="team-initial initial-blue">CB</div>
-        <p class="team-name">Christian Bernardo, MD</p>
+        <h3 class="team-name">Christian Bernardo, MD</h3>
         <p class="team-role">Family Physician · 25 years in practice</p>
         <p class="team-cred">U.S. healthcare utilization management experience</p>
         <p class="team-bio">Christian brings 25 years of clinical practice and healthcare operations experience to Vericeus. His work spans family medicine, emergency and industrial care, associate medical directorship, insurance utilization management, and U.S.-based healthcare utilization management. Christian provides the clinical review layer behind Vericeus, helping flag medical accuracy issues, unclear claims, outdated guidance, and phrasing that may need a closer clinical look.</p>
-        <div class="tag-row">
-          <span class="tag">Family medicine</span>
-          <span class="tag">Utilization management</span>
-          <span class="tag">U.S. healthcare operations</span>
-          <span class="tag">Clinical review</span>
-          <span class="tag">Medical accuracy support</span>
-        </div>
+        <ul class="tag-row">
+          <li class="tag">Family medicine</li>
+          <li class="tag">Utilization management</li>
+          <li class="tag">U.S. healthcare operations</li>
+          <li class="tag">Clinical review</li>
+          <li class="tag">Medical accuracy support</li>
+        </ul>
       </div>
       <div class="team-card">
         <div class="team-initial initial-green">JB</div>
-        <p class="team-name">Janina Bernardo</p>
+        <h3 class="team-name">Janina Bernardo</h3>
         <p class="team-role">B2B Content Strategist · 10+ years</p>
         <p class="team-cred">North American agency experience · Humber College, Toronto</p>
         <p class="team-bio">Janina writes for Canadian and U.S. content agencies, with agency-side experience across insurance, real estate, wellness, legal services, education, and telecom. Her background combines Canadian marketing education with agency-side content production across service-based, regulated, and research-heavy industries.</p>
-        <div class="tag-row">
-          <span class="tag">Research-heavy content</span>
-          <span class="tag">Agency-side content production</span>
-          <span class="tag">SEO, AEO &amp; GEO writing</span>
-          <span class="tag">AI-assisted draft cleanup</span>
-        </div>
+        <ul class="tag-row">
+          <li class="tag">Research-heavy content</li>
+          <li class="tag">Agency-side content production</li>
+          <li class="tag">SEO, AEO &amp; GEO writing</li>
+          <li class="tag">AI-assisted draft cleanup</li>
+        </ul>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <p class="section-eyebrow">FAQ</p>
+    <h2 class="section-title">Common questions</h2>
+    <ul class="faq-list">
+      <li class="faq-item">
+        <h3 class="faq-q">What does Vericeus do?</h3>
+        <p class="faq-a">Vericeus is a medical content consultancy. We help healthcare agencies, medical communications teams, and health brands turn rough drafts, expert notes, and AI-assisted copy into clear, clinically sound, publication-ready content.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-q">Who is Vericeus for?</h3>
+        <p class="faq-a">Healthcare agencies, medical communications teams, health-tech companies, and health brands that need content which is both medically accurate and clearly written.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-q">How does Vericeus ensure medical accuracy?</h3>
+        <p class="faq-a">Every draft goes through a physician-led review layer that checks clarity, structure, clinical sense, and medical accuracy, and flags unclear claims or guidance that needs a closer look.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-q">What content services does Vericeus offer?</h3>
+        <p class="faq-a">Healthcare content writing, search-informed content for SEO, AEO, and GEO, health-tech marketing copy, and clinical content audits.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-q">Can Vericeus review an existing draft?</h3>
+        <p class="faq-a">Yes. Our clinical content audits flag unclear medical phrasing, unsupported claims, and outdated guidance, and return practical notes with a cleaner, publication-ready version.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-q">How do I ask about pricing or turnaround time?</h3>
+        <p class="faq-a"><a href="mailto:cbernardo@vericeus.com">Email Vericeus</a> with your project scope, and we'll discuss pricing and turnaround time.</p>
+      </li>
+    </ul>
   </div>
 </section>
 
@@ -376,6 +420,21 @@ footer {
     </p>
   </div>
 </footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What does Vericeus do?", "acceptedAnswer": { "@type": "Answer", "text": "Vericeus is a medical content consultancy. We help healthcare agencies, medical communications teams, and health brands turn rough drafts, expert notes, and AI-assisted copy into clear, clinically sound, publication-ready content." } },
+    { "@type": "Question", "name": "Who is Vericeus for?", "acceptedAnswer": { "@type": "Answer", "text": "Healthcare agencies, medical communications teams, health-tech companies, and health brands that need content which is both medically accurate and clearly written." } },
+    { "@type": "Question", "name": "How does Vericeus ensure medical accuracy?", "acceptedAnswer": { "@type": "Answer", "text": "Every draft goes through a physician-led review layer that checks clarity, structure, clinical sense, and medical accuracy, and flags unclear claims or guidance that needs a closer look." } },
+    { "@type": "Question", "name": "What content services does Vericeus offer?", "acceptedAnswer": { "@type": "Answer", "text": "Healthcare content writing, search-informed content for SEO, AEO, and GEO, health-tech marketing copy, and clinical content audits." } },
+    { "@type": "Question", "name": "Can Vericeus review an existing draft?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Our clinical content audits flag unclear medical phrasing, unsupported claims, and outdated guidance, and return practical notes with a cleaner, publication-ready version." } },
+    { "@type": "Question", "name": "How do I ask about pricing or turnaround time?", "acceptedAnswer": { "@type": "Answer", "text": "Email Vericeus at cbernardo@vericeus.com with your project scope, and we will discuss pricing and turnaround time." } }
+  ]
+}
+</script>
 
 </body>
 </html>
