@@ -14,83 +14,65 @@
 <link rel="icon" href="/logo.png" type="image/png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="/assets/site.css"/>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="site-nav">
-  <div class="container">
-    <a class="brand" href="/" aria-label="Vericeus home"><img src="/logo.png" alt="" width="36" height="36"/><span>Vericeus</span></a>
-    <nav class="nav-links" aria-label="Main">
-      <a class="hide-sm" href="/#services">Services</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Vericeus home"><img src="/logo.png" alt="" width="34" height="34"/><b>Vericeus</b></a>
+    <nav class="menu" aria-label="Main">
+      <a class="opt" href="/#services">Services</a>
       <a href="/insights/" aria-current="page">Insights</a>
-      <a class="hide-sm" href="/#team">Team</a>
-      <a class="btn btn-dark" href="mailto:cbernardo@vericeus.com">Get in touch</a>
+      <a class="opt" href="/#team">Team</a>
+      <a class="btn btn-ink" href="mailto:cbernardo@vericeus.com">Email us</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
-  <section class="page-hero">
-    <div class="container">
-      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span>Insights</nav>
-      <div class="eyebrow">Insights</div>
-      <h1>Health insights from a family physician</h1>
-      <p class="lead">Physician-informed articles that explain everyday medical concerns in clear language, with sources you can check. Written and reviewed by Chris Bernardo, MD.</p>
+  <section class="page-top">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Insights</nav>
+      <h1 class="h1">Health insights from a family physician</h1>
+      <p class="lede">Physician-informed articles that explain everyday medical concerns in clear language, with sources you can check. Written and reviewed by Chris Bernardo, MD.</p>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
-    <div class="container">
-      <ul class="card-grid">
+  <section style="padding-bottom:clamp(4rem,9vw,6.5rem)">
+    <div class="wrap">
+      <ul class="index">
         <li>
-          <a class="card insight-card" href="/insights/extreme-heat-kidney-health/">
-            <div class="insight-art" aria-hidden="true">Rx</div>
-            <div class="insight-body">
-              <p class="insight-meta">Kidney health · <time datetime="2026-11-10">November 10, 2026</time> · Chris Bernardo, MD</p>
-              <h2 class="card-title" style="font-family:var(--font-display);font-size:clamp(1.35rem,2.6vw,1.7rem);font-weight:600;line-height:1.2;margin-bottom:.65rem">Can Extreme Heat Damage Your Kidneys? Causes, Warning Signs, and Prevention</h2>
+          <a href="/insights/extreme-heat-kidney-health/">
+            <time datetime="2026-11-10">Nov 10, 2026</time>
+            <div>
+              <h2 class="h3">Can Extreme Heat Damage Your Kidneys? Causes, Warning Signs, and Prevention</h2>
               <p>Yes. Extreme heat can damage the kidneys when heavy sweating and dehydration reduce blood flow to them. Learn the warning signs, who is most at risk, and practical prevention steps.</p>
-              <span class="read-more">Read the article →</span>
+              <p class="by">Kidney health, by Chris Bernardo, MD</p>
             </div>
           </a>
         </li>
       </ul>
     </div>
   </section>
-
-  <section class="cta">
-    <div class="container">
-      <div class="cta-box">
-        <div>
-          <p class="cta-title">Need physician-reviewed health content?</p>
-          <p class="cta-sub">We write and review healthcare content for agencies, med comms teams, and health brands.</p>
-        </div>
-        <a class="btn btn-light" href="mailto:cbernardo@vericeus.com">Get in touch ↗</a>
-      </div>
-    </div>
-  </section>
 </main>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <a class="brand" href="/"><img src="/logo.png" alt="" width="36" height="36"/><span>Vericeus</span></a>
-        <p class="footer-tag">Precision, prescribed.</p>
-      </div>
-      <nav class="footer-links" aria-label="Footer">
-        <a href="/#services">Services</a>
-        <a href="/insights/">Insights</a>
-        <a href="/#team">Team</a>
-        <a href="/#faq">FAQ</a>
-      </nav>
+<section class="closing">
+  <div class="wrap">
+    <div>
+      <h2 class="h2">Need physician-reviewed health content?</h2>
+      <p>We write and review healthcare content for agencies, med comms teams, and health brands.</p>
+      <a class="btn" href="mailto:cbernardo@vericeus.com">Email cbernardo@vericeus.com</a>
     </div>
-    <div class="footer-note">
-      <span>Healthcare content writing · Search-informed content · Health-tech copy · Clinical content audits</span>
-      <a href="mailto:cbernardo@vericeus.com">cbernardo@vericeus.com</a>
-    </div>
+    <div class="mark"><img src="/logo.png" alt="Vericeus caduceus logo" width="120" height="120"/><p class="motto">Precision, prescribed.</p></div>
+  </div>
+</section>
+<footer class="site-foot">
+  <div class="wrap">
+    <span>© 2026 Vericeus</span>
+    <nav aria-label="Footer"><a href="/#services">Services</a><a href="/insights/">Insights</a><a href="/#team">Team</a><a href="/#faq">FAQ</a></nav>
   </div>
 </footer>
 
