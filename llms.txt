@@ -11,3 +11,4 @@
 ## Insights (physician-informed health articles)
 
 - [Can Extreme Heat Damage Your Kidneys? Causes, Warning Signs, and Prevention](https://vericeus.com/insights/extreme-heat-kidney-health/): How heat and dehydration can cause acute kidney injury, who is most at risk, warning signs, and prevention. By Chris Bernardo, MD.
+- [What China's AI Cooperation Initiative Could Mean for Healthcare in the Philippines](https://vericeus.com/insights/china-ai-cooperation-healthcare-philippines/): Where AI could help Philippine healthcare most (TB and diabetic eye screening, rural chronic care, outbreak surveillance) and the safeguards needed. By Chris Bernardo, MD.

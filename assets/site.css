@@ -229,3 +229,11 @@ a { color: inherit; }
 .author a { font-size: 15px; }
 .disclaimer { font-family: var(--sans); font-size: 14px !important; color: var(--muted) !important; line-height: 1.6 !important; margin-top: 1.5rem; }
 @media (max-width: 600px) { .author { grid-template-columns: 1fr; gap: .5rem; } }
+
+/* Article sources list */
+.sources { font-family: var(--sans); margin-top: 3rem; padding-top: .25rem; }
+.sources h2 { font-family: var(--serif); }
+.sources ol { counter-reset: s; }
+.sources li { counter-increment: s; position: relative; padding-left: 1.9rem !important; font-size: 15px; line-height: 1.6; color: var(--ink-2); padding: .65rem 0; border-top: 1px solid var(--rule); }
+.sources li::before { content: counter(s) "."; position: absolute; left: 0; color: var(--muted); }
+.sources li:last-child { border-bottom: 1px solid var(--rule); }
