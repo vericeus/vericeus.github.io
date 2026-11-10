@@ -165,6 +165,15 @@ section { padding: clamp(2.5rem, 6vw, 4rem) 0; border-bottom: 1px solid var(--ru
 /* Semantic lists: keep the custom look, drop the browser bullets */
 .problem-stack, .services-grid, .tag-row, .faq-list { list-style: none; }
 
+/* INSIGHTS */
+.insight-list { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+.insight-card a { display: block; border: 1px solid var(--rule); padding: 1.5rem; background: var(--paper); text-decoration: none; transition: border-color 0.2s; }
+.insight-card a:hover { border-color: var(--ink); }
+.insight-meta { font-size: 11px; color: var(--ink-muted); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.5rem; }
+.insight-title { font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; color: var(--ink); line-height: 1.25; margin-bottom: 0.5rem; }
+.insight-desc { font-size: 14px; color: var(--ink-soft); line-height: 1.65; margin-bottom: 0.75rem; }
+.insight-link { font-size: 13px; font-weight: 500; color: var(--accent); }
+
 /* FAQ */
 .faq-list { display: flex; flex-direction: column; gap: 1.25rem; }
 .faq-item { border-bottom: 1px solid var(--rule); padding-bottom: 1.25rem; }
@@ -371,6 +380,23 @@ footer {
         </ul>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="insights">
+  <div class="wrap">
+    <div class="section-eyebrow">Insights</div>
+    <h2 class="section-title">Physician-informed health articles</h2>
+    <ul class="insight-list">
+      <li class="insight-card">
+        <a href="extreme-heat-kidney-health">
+          <p class="insight-meta">Kidney health · By Chris Bernardo, MD</p>
+          <h3 class="insight-title">Can Extreme Heat Damage Your Kidneys? Causes, Warning Signs, and Prevention</h3>
+          <p class="insight-desc">How heat and dehydration can lead to acute kidney injury, who is most at risk, the warning signs to watch for, and practical ways to protect kidney health.</p>
+          <span class="insight-link">Read the article →</span>
+        </a>
+      </li>
+    </ul>
   </div>
 </section>
 
