@@ -252,10 +252,8 @@ a { color: inherit; }
 
 /* Article lead photo */
 .art-photo { margin-bottom: clamp(2rem, 4vw, 3rem); }
-.art-photo img { width: 100%; height: auto; aspect-ratio: 16 / 7; object-fit: cover; border-radius: 6px; background: var(--grid); }
+.art-photo img { width: 100%; height: auto; aspect-ratio: 2 / 1; object-fit: cover; border-radius: 6px; background: var(--grid); }
 .art-photo figcaption { margin-top: .6rem; font-size: 13px; color: var(--muted); }
-.art-photo figcaption a { color: var(--muted); }
-.art-photo figcaption a:hover { color: var(--ink); }
 @media (max-width: 600px) { .art-photo { padding-left: 0; padding-right: 0; } .art-photo img { aspect-ratio: 4 / 3; border-radius: 0; } .art-photo figcaption { padding: 0 var(--pad); } }
 
 /* Insights index thumbnails */
