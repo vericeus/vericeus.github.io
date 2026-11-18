@@ -4,7 +4,7 @@
   <title>Vericeus Insights</title>
   <link>https://vericeus.com/insights/</link>
   <atom:link href="https://vericeus.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Insights on healthcare and AI in the Philippines, by Chris Bernardo, MD.</description>
+  <description>Insights on healthcare and AI in the Philippines, by Vericeus.</description>
   <language>en</language>
   <lastBuildDate>Wed, 18 Nov 2026 06:10:00 GMT</lastBuildDate>
   <item>
@@ -12,7 +12,7 @@
     <link>https://vericeus.com/insights/healthcare-ai-filipino-patients/</link>
     <guid>https://vericeus.com/insights/healthcare-ai-filipino-patients/</guid>
     <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-    <author>cbernardo@vericeus.com (Chris Bernardo, MD)</author>
+    <author>cbernardo@vericeus.com (Vericeus)</author>
     <description>Healthcare AI trained overseas may not perform the same way in the Philippines. Learn why local validation, patient data and clinical oversight matter.</description>
   </item>
   <item>
@@ -20,7 +20,7 @@
     <link>https://vericeus.com/insights/china-ai-cooperation-healthcare-philippines/</link>
     <guid>https://vericeus.com/insights/china-ai-cooperation-healthcare-philippines/</guid>
     <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-    <author>cbernardo@vericeus.com (Chris Bernardo, MD)</author>
+    <author>cbernardo@vericeus.com (Vericeus)</author>
     <description>Where AI could help Philippine patients most, and the safeguards it would need first.</description>
   </item>
   <item>
@@ -28,7 +28,7 @@
     <link>https://vericeus.com/insights/extreme-heat-kidney-health/</link>
     <guid>https://vericeus.com/insights/extreme-heat-kidney-health/</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-    <author>cbernardo@vericeus.com (Chris Bernardo, MD)</author>
+    <author>cbernardo@vericeus.com (Vericeus)</author>
     <description>How heat and dehydration can lead to acute kidney injury, and how to lower the risk.</description>
   </item>
 </channel>
