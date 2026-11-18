@@ -72,6 +72,7 @@
 .hero-copy .lede, .hero-copy .detail { max-width: none; }
 .insights .block-head { display: grid; grid-template-columns: 1fr auto; }
 .insights .block-head .lede { max-width: none; }
+.criteria b { font-size: clamp(1.5rem, 2.6vw, 2rem); margin-bottom: .4rem; }
 .about-head { align-items: start; }
 .about-head .lede { max-width: none; }
 @media (max-width: 900px) { .hero-solo { grid-template-columns: 1fr; } .insights .block-head { grid-template-columns: 1fr; } }
@@ -119,7 +120,7 @@
       <div>
         <p class="eyebrow">Vericeus Insights</p>
         <h2 class="h2">Insights on healthcare and AI in the Philippines.</h2>
-        <p class="lede">Clear, sourced explanations of medical topics and health technology, written and reviewed by Chris Bernardo, MD. New articles every two weeks.</p>
+        <p class="lede">Clear, sourced explanations of medical topics and health technology, clinically reviewed by Vericeus. New articles every two weeks.</p>
         <div class="tags"><span>Clinical care</span><span>Health AI</span><span>Health data</span></div>
       </div>
       <div class="ins-actions"><a class="btn btn-line" href="/insights/">Browse all insights</a><a class="link" href="/feed.xml">RSS feed</a></div>
@@ -131,7 +132,6 @@
         <p class="meta"><span class="tag">Health AI</span> Featured, Nov 18, 2026</p>
         <h3>Will Healthcare AI Work for Filipino Patients? Why Local Validation Matters</h3>
         <p>Most healthcare AI is built on patient data from other countries. Philippine studies on eye disease and TB screening show why local testing, data control, and Filipino clinicians must shape how these tools are used.</p>
-        <p class="by">By Chris Bernardo, MD</p>
       </div>
     </a>
 
@@ -141,14 +141,12 @@
         <p class="meta"><span class="tag">Health AI</span> Nov 11, 2026</p>
         <h3>What China's AI Cooperation Initiative Could Mean for Healthcare in the Philippines</h3>
         <p>Where affordable AI could help Philippine patients most, and the safeguards it would need first.</p>
-        <p class="by">By Chris Bernardo, MD</p>
       </a>
       <a class="card" href="/insights/extreme-heat-kidney-health/">
         <img src="/assets/img/heat-kidneys-thumb.webp" alt="" loading="lazy"/>
         <p class="meta"><span class="tag">Clinical care</span> Nov 10, 2026</p>
         <h3>Can Extreme Heat Damage Your Kidneys? Causes, Warning Signs, and Prevention</h3>
         <p>How heat and dehydration reduce blood flow to the kidneys, who is most at risk, and practical prevention steps.</p>
-        <p class="by">By Chris Bernardo, MD</p>
       </a>
       <div class="card subscribe">
         <p class="meta">Get new articles by email</p>
@@ -201,14 +199,14 @@
 <section class="block proof" id="proof">
   <div class="wrap">
     <div class="block-head">
-      <div><p class="eyebrow">Track record</p>
-      <h2 class="h2">Evaluation work we already do.</h2></div>
-      <p class="lede">Our clinical lead is a regular physician evaluator for a medical AI foundation, reviewing AI-generated answers to health questions for accuracy and safety.</p>
+      <div><p class="eyebrow">How we evaluate</p>
+      <h2 class="h2">How we judge an AI answer.</h2></div>
+      <p class="lede">Vericeus regularly evaluates AI-generated answers to health questions for a medical AI foundation. Every answer is checked the way a clinician would check it.</p>
     </div>
-    <div class="stats">
-      <div><b>Ongoing</b><span>evaluation of AI answers to health questions</span></div>
-      <div><b>Safety first</b><span>every answer checked for accuracy and potential harm</span></div>
-      <div><b>25 years</b><span>of clinical practice</span></div>
+    <div class="stats criteria">
+      <div><b>Is it safe?</b><span>Could following the answer cause harm?</span></div>
+      <div><b>Is it complete?</b><span>Does it say when to see a doctor?</span></div>
+      <div><b>Does it fit here?</b><span>Does it match the language, diseases, and care Filipino patients actually have?</span></div>
     </div>
     <figure class="sample">
       <figcaption>Illustrative example of how we score an AI answer</figcaption>
