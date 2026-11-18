@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Vericeus Insights</title>
+  <link>https://vericeus.com/insights/</link>
+  <atom:link href="https://vericeus.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Insights on healthcare and AI in the Philippines, by Chris Bernardo, MD.</description>
+  <language>en</language>
+  <lastBuildDate>Wed, 18 Nov 2026 06:10:00 GMT</lastBuildDate>
+  <item>
+    <title>Will Healthcare AI Work for Filipino Patients? Why Local Validation Matters</title>
+    <link>https://vericeus.com/insights/healthcare-ai-filipino-patients/</link>
+    <guid>https://vericeus.com/insights/healthcare-ai-filipino-patients/</guid>
+    <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+    <author>cbernardo@vericeus.com (Chris Bernardo, MD)</author>
+    <description>Healthcare AI trained overseas may not perform the same way in the Philippines. Learn why local validation, patient data and clinical oversight matter.</description>
+  </item>
+  <item>
+    <title>What China's AI Cooperation Initiative Could Mean for Healthcare in the Philippines</title>
+    <link>https://vericeus.com/insights/china-ai-cooperation-healthcare-philippines/</link>
+    <guid>https://vericeus.com/insights/china-ai-cooperation-healthcare-philippines/</guid>
+    <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    <author>cbernardo@vericeus.com (Chris Bernardo, MD)</author>
+    <description>Where AI could help Philippine patients most, and the safeguards it would need first.</description>
+  </item>
+  <item>
+    <title>Can Extreme Heat Damage Your Kidneys? Causes, Warning Signs, and Prevention</title>
+    <link>https://vericeus.com/insights/extreme-heat-kidney-health/</link>
+    <guid>https://vericeus.com/insights/extreme-heat-kidney-health/</guid>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <author>cbernardo@vericeus.com (Chris Bernardo, MD)</author>
+    <description>How heat and dehydration can lead to acute kidney injury, and how to lower the risk.</description>
+  </item>
+</channel>
+</rss>

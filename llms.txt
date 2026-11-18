@@ -1,14 +1,18 @@
 # Vericeus
 
-> Vericeus is a medical content consultancy. A physician with 25 years of clinical practice (Christian "Chris" Bernardo, MD) and a B2B content strategist with 10+ years of North American agency experience (Janina Bernardo) turn rough drafts, expert notes, and AI-assisted copy into clinically sound, publication-ready healthcare content. Contact: cbernardo@vericeus.com
+> Vericeus is a physician-led healthcare consultancy in the Philippines. It advises on clinical content, medical AI evaluation, and Filipino health data strategy, with the mission of consolidated, consented local health data for Filipino patients. Clinical lead: Christian "Chris" Bernardo, MD (25 years of clinical practice, physician evaluator for medical AI). Content strategy lead: Janina Bernardo (10+ years of North American agency experience). Tagline: "Truth in Filipino health data." Contact by email only: cbernardo@vericeus.com
 
 ## Services
 
-- [Services overview](https://vericeus.com/#services): Healthcare content writing, search-informed healthcare content (SEO, AEO, GEO), health-tech marketing copy, and clinical content audits.
-- [Team](https://vericeus.com/#team): Credentials of the physician reviewer and the content strategist.
-- [FAQ](https://vericeus.com/#faq): How Vericeus works, who it serves, pricing and turnaround.
+- [Clinical content and review](https://vericeus.com/#services): Clinically reviewed healthcare writing, SEO, AEO and GEO content, health-tech copy, and clinical content audits.
+- [Clinical AI evaluation](https://vericeus.com/#services): Expert review of AI-generated medical answers, with rubrics, error categories, and testing for Filipino context (Tagalog and Taglish questions, local disease burden, Philippine clinical guidelines).
+- [Health data and AI strategy](https://vericeus.com/#services): Feasibility and planning for using Philippine health data responsibly, including Data Privacy Act governance, consent, partner mapping, and pilot scoping. Not legal advice.
+- [Mission](https://vericeus.com/#mission): Filipino health data, for Filipinos.
+- [Team](https://vericeus.com/#team) and [FAQ](https://vericeus.com/#faq).
 
-## Insights (physician-informed health articles)
+## Insights (articles by Chris Bernardo, MD)
 
-- [Can Extreme Heat Damage Your Kidneys? Causes, Warning Signs, and Prevention](https://vericeus.com/insights/extreme-heat-kidney-health/): How heat and dehydration can cause acute kidney injury, who is most at risk, warning signs, and prevention. By Chris Bernardo, MD.
-- [What China's AI Cooperation Initiative Could Mean for Healthcare in the Philippines](https://vericeus.com/insights/china-ai-cooperation-healthcare-philippines/): Where AI could help Philippine healthcare most (TB and diabetic eye screening, rural chronic care, outbreak surveillance) and the safeguards needed. By Chris Bernardo, MD.
+- [Will Healthcare AI Work for Filipino Patients? Why Local Validation Matters](https://vericeus.com/insights/healthcare-ai-filipino-patients/): Why AI trained overseas needs local validation in the Philippines, with Philippine evidence on diabetic eye disease and TB screening, data control, and what hospitals should check.
+- [What China's AI Cooperation Initiative Could Mean for Healthcare in the Philippines](https://vericeus.com/insights/china-ai-cooperation-healthcare-philippines/): Where AI could help Philippine healthcare most and the safeguards needed.
+- [Can Extreme Heat Damage Your Kidneys? Causes, Warning Signs, and Prevention](https://vericeus.com/insights/extreme-heat-kidney-health/): How heat and dehydration can cause acute kidney injury, warning signs, and prevention.
+- [RSS feed](https://vericeus.com/feed.xml)
