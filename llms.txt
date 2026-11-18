@@ -6,7 +6,7 @@
 
 - [Clinical AI evaluation](https://vericeus.com/#services): Expert review of AI-generated medical answers, with rubrics, error categories, and testing for Filipino context (Tagalog and Taglish questions, local disease burden, Philippine clinical guidelines).
 - [Health data and AI strategy](https://vericeus.com/#services): Feasibility and planning for using Philippine health data responsibly, including Data Privacy Act governance, consent, partner mapping, and pilot scoping. Not legal advice.
-- [Mission](https://vericeus.com/#mission): Filipino health data, for Filipinos.
+- [Manifesto](https://vericeus.com/manifesto/): Why Filipino health data must be consolidated for better, lower-cost care, why AI must serve every Filipino, and what Vericeus commits to.
 - [Team](https://vericeus.com/#team) and [FAQ](https://vericeus.com/#faq).
 
 ## Insights (articles written and clinically reviewed by Vericeus)

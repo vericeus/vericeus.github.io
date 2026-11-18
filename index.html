@@ -45,6 +45,8 @@
 .mission .eyebrow { color: #8fc7b8; }
 .mission .h2 { color: #fff; }
 .mission-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: clamp(1.5rem, 5vw, 5rem); align-items: start; }
+.mission-btn { margin-top: 1rem; background: #fff; color: var(--ink); }
+.mission-btn:hover { background: #8fc7b8; color: var(--ink); }
 .mission-grid p { font-size: 18px; line-height: 1.7; color: #d5dde2; margin-bottom: 1rem; }
 @media (max-width: 860px) { .mission-grid { grid-template-columns: 1fr; } }
 .mail-text { margin-top: .9rem; font-size: 14px; color: var(--muted); }
@@ -208,6 +210,7 @@
       <div>
         <p>Most medical AI is trained and tested on patients from other countries. Filipino patients have their own disease patterns, languages, and realities of care, and much of their health information still sits in paper records and systems that do not connect.</p>
         <p>Vericeus works toward consolidated, consented local health data that Philippine clinicians, researchers, and builders can trust. Data that reflects Filipino patients, governed in the Philippines, and used to improve their care.</p>
+        <a class="btn mission-btn" href="/manifesto/">Read the Vericeus Manifesto</a>
       </div>
     </div>
   </div>
@@ -264,7 +267,7 @@
 <footer class="site-foot">
   <div class="wrap">
     <span>© 2026 Vericeus. Healthcare consulting in the Philippines: medical AI evaluation and Filipino health data strategy.</span>
-    <nav aria-label="Footer"><a href="#insights">Insights</a><a href="#services">Services</a><a href="#about">About</a><a href="#faq">FAQ</a></nav>
+    <nav aria-label="Footer"><a href="#insights">Insights</a><a href="#services">Services</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="/manifesto/">Manifesto</a></nav>
   </div>
 </footer>
 <script type="application/ld+json">
