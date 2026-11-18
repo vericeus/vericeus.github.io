@@ -75,6 +75,10 @@
 .criteria b { font-size: clamp(1.5rem, 2.6vw, 2rem); margin-bottom: .4rem; }
 .about-head { align-items: start; }
 .about-head .lede { max-width: none; }
+.founder { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.founder-name { font-family: var(--serif); font-size: 1.5rem; color: var(--ink); }
+.founder-role { font-size: 14px; font-weight: 600; color: var(--teal); margin: .2rem 0 .8rem; }
+.founder p:last-child { color: var(--ink-2); line-height: 1.7; }
 @media (max-width: 900px) { .hero-solo { grid-template-columns: 1fr; } .insights .block-head { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -88,7 +92,7 @@
       <a class="insights-link" href="#insights">Insights</a>
       <a class="opt" href="#mission">Mission</a>
       <a class="opt" href="#services">Services</a>
-      <a class="opt" href="#team">Team</a>
+      <a class="opt" href="#about">About</a>
       <a class="opt" href="#faq">FAQ</a>
       <a class="btn btn-ink" href="mailto:cbernardo@vericeus.com?subject=Project%20inquiry">Email us</a>
     </nav>
@@ -223,30 +227,14 @@
   <div class="wrap">
     <div class="block-head about-head">
       <h2 class="h2">About Vericeus</h2>
-      <p class="lede">Vericeus is a physician-led healthcare consultancy. Our clinical perspective comes from years of practice, utilization management, and healthcare operations, so our advice reflects how care and coverage decisions work in the real world. Content strategy and delivery are led by a B2B content strategist with 10+ years of agency experience.</p>
-    </div>
-  </div>
-</section>
-
-<section class="block" id="team">
-  <div class="wrap">
-    <div class="block-head">
-      <h2 class="h2">Who you work with</h2>
-      <p class="lede">A small, senior team. Every engagement pairs clinical judgment with clear delivery.</p>
-    </div>
-    <div class="team">
-      <article class="person">
-        <h3 class="h3">Clinical lead</h3>
-        <p class="role">Physician, 25 years in practice</p>
-        <p class="cred">Physician evaluator for medical AI</p>
-        <p class="bio">Leads clinical review, AI evaluation, and health data advisory. Experience spans clinical practice, emergency and industrial care, associate medical directorship, and U.S. healthcare utilization management.</p>
-      </article>
-      <article class="person">
-        <h3 class="h3">Content strategy lead</h3>
-        <p class="role">B2B content strategist, 10+ years</p>
-        <p class="cred">North American agency experience</p>
-        <p class="bio">Leads content strategy, structure, and delivery, with agency-side experience across regulated and research-heavy industries including insurance, wellness, and legal services.</p>
-      </article>
+      <div class="about-copy">
+        <p class="lede">Vericeus is a physician-led healthcare consultancy. Our clinical perspective comes from years of practice, utilization management, and healthcare operations, so our advice reflects how care and coverage decisions work in the real world. Content strategy and delivery are led by a B2B content strategist with 10+ years of agency experience.</p>
+        <div class="founder" id="christian-bernardo">
+          <p class="founder-name">Christian Bernardo, MD</p>
+          <p class="founder-role">Founder and clinical lead</p>
+          <p>Christian brings 25 years of clinical practice to Vericeus. His experience spans clinical practice, emergency and industrial care, associate medical directorship, and U.S. healthcare utilization management. He is a regular physician evaluator of AI-generated health answers for a medical AI foundation, and leads Vericeus's clinical review, AI evaluation, and health data advisory work.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -315,7 +303,10 @@
         "@type": "Country",
         "name": "Philippines"
       },
-      "email": "cbernardo@vericeus.com"
+      "email": "cbernardo@vericeus.com",
+      "founder": {
+        "@id": "https://vericeus.com/#christian-bernardo"
+      }
     },
     {
       "@type": "WebSite",
@@ -438,6 +429,17 @@
           }
         }
       ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vericeus.com/#christian-bernardo",
+      "name": "Christian Bernardo, MD",
+      "jobTitle": "Founder and Clinical Lead",
+      "description": "Physician with 25 years of clinical practice, physician evaluator of AI-generated health answers, and experience in U.S. healthcare utilization management.",
+      "url": "https://vericeus.com/#christian-bernardo",
+      "worksFor": {
+        "@id": "https://vericeus.com/#org"
+      }
     }
   ]
 }
