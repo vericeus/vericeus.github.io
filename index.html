@@ -13,6 +13,7 @@
 <meta property="og:image" content="https://vericeus.com/banner.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <link rel="alternate" type="application/rss+xml" title="Vericeus Insights" href="/feed.xml"/>
+<link rel="preload" as="image" href="/assets/img/manifesto-1680.webp"/>
 <link rel="icon" href="/logo.png" type="image/png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -68,6 +69,17 @@
 .sample p, .sample li { font-size: 15px; line-height: 1.55; color: var(--ink-2); }
 .sample li + li { margin-top: .35rem; }
 @media (max-width: 760px) { .stats, .sample-grid { grid-template-columns: 1fr; } }
+.hero-photo { position: relative; color: #fff; background: var(--ink) url(/assets/img/manifesto-1680.webp) center 62% / cover no-repeat; padding: clamp(6rem, 14vw, 11rem) 0 clamp(5rem, 11vw, 9rem); }
+.hero-photo::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(21,35,45,.92) 0%, rgba(21,35,45,.78) 45%, rgba(21,35,45,.55) 100%), linear-gradient(0deg, rgba(21,35,45,.6), rgba(21,35,45,0) 45%); }
+.hero-photo .wrap { position: relative; }
+.hero-photo .h1 { color: #fff; }
+.hero-photo .lede { color: #eef2f3; }
+.hero-photo .detail, .hero-photo .mail-text { color: #c9d3d8; }
+.hero-photo .btn-ink { background: #fff; color: var(--ink); border-color: #fff; }
+.hero-photo .btn-ink:hover { background: #8fc7b8; border-color: #8fc7b8; }
+.hero-photo .btn-line { color: #fff; border-color: rgba(255,255,255,.7); }
+.hero-photo .btn-line:hover { background: rgba(255,255,255,.12); }
+@media (max-width: 900px) { .hero-photo::before { background: rgba(21,35,45,.82); } }
 .hero-solo { grid-template-columns: 1.15fr 1fr; align-items: start; }
 .hero-copy { padding-top: .6rem; }
 .hero-solo .h1 { margin: 0; }
@@ -103,7 +115,7 @@
 
 <main id="main">
 
-<section class="hero">
+<section class="hero hero-photo">
   <div class="wrap hero-grid hero-solo">
     <div>
       <h1 class="h1">Health data and AI, built for Filipino patients.</h1>
@@ -266,7 +278,7 @@
 </section>
 <footer class="site-foot">
   <div class="wrap">
-    <span>© 2026 Vericeus. Healthcare consulting in the Philippines: medical AI evaluation and Filipino health data strategy.</span>
+    <span>© 2026 Vericeus. Healthcare consulting in the Philippines.</span>
     <nav aria-label="Footer"><a href="#insights">Insights</a><a href="#services">Services</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="/manifesto/">Manifesto</a></nav>
   </div>
 </footer>
