@@ -66,10 +66,15 @@
 .sample p, .sample li { font-size: 15px; line-height: 1.55; color: var(--ink-2); }
 .sample li + li { margin-top: .35rem; }
 @media (max-width: 760px) { .stats, .sample-grid { grid-template-columns: 1fr; } }
-.hero-solo { grid-template-columns: 1fr; }
-.hero-solo > div { max-width: 46rem; }
-.about { max-width: 46em; }
-.about p { font-size: 18px; line-height: 1.7; color: var(--ink-2); }
+.hero-solo { grid-template-columns: 1.15fr 1fr; align-items: start; }
+.hero-copy { padding-top: .6rem; }
+.hero-solo .h1 { margin: 0; }
+.hero-copy .lede, .hero-copy .detail { max-width: none; }
+.insights .block-head { display: grid; grid-template-columns: 1fr auto; }
+.insights .block-head .lede { max-width: none; }
+.about-head { align-items: start; }
+.about-head .lede { max-width: none; }
+@media (max-width: 900px) { .hero-solo { grid-template-columns: 1fr; } .insights .block-head { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -95,6 +100,8 @@
   <div class="wrap hero-grid hero-solo">
     <div>
       <h1 class="h1">Health data and AI, built for Filipino patients.</h1>
+    </div>
+    <div class="hero-copy">
       <p class="lede">Vericeus is a clinically grounded healthcare consultancy in the Philippines. We help hospitals, health-tech teams, and health brands check what they publish, test whether their AI fits Filipino patients, and plan how to use local health data responsibly.</p>
       <p class="detail">Clinical judgment from a physician with 25 years of practice, paired with content strategy from a B2B writer with 10+ years of agency experience. One point of contact. Fewer handoffs.</p>
       <div class="actions">
@@ -216,11 +223,9 @@
 
 <section class="block" id="about">
   <div class="wrap">
-    <div class="block-head">
+    <div class="block-head about-head">
       <h2 class="h2">About Vericeus</h2>
-    </div>
-    <div class="about">
-      <p>Vericeus is a physician-led healthcare consultancy. Our clinical perspective comes from years of practice, utilization management, and healthcare operations, so our advice reflects how care and coverage decisions work in the real world. Content strategy and delivery are led by a B2B content strategist with 10+ years of agency experience.</p>
+      <p class="lede">Vericeus is a physician-led healthcare consultancy. Our clinical perspective comes from years of practice, utilization management, and healthcare operations, so our advice reflects how care and coverage decisions work in the real world. Content strategy and delivery are led by a B2B content strategist with 10+ years of agency experience.</p>
     </div>
   </div>
 </section>
