@@ -1,10 +1,9 @@
 # Vericeus
 
-> Vericeus is a physician-led healthcare consultancy in the Philippines. It advises on clinical content, medical AI evaluation, and Filipino health data strategy, with the mission of consolidated, consented local health data for Filipino patients. Founded and run by Christian Bernardo, MD, a physician with 25 years of clinical practice who evaluates AI-generated health answers. Tagline: "Truth in Filipino health data." Contact by email only: cbernardo@vericeus.com
+> Vericeus is a physician-led healthcare consultancy in the Philippines. It advises on medical AI evaluation and Filipino health data strategy, with the mission of consolidated, consented local health data for Filipino patients. Founded and run by Christian Bernardo, MD, a physician with 25 years of clinical practice who evaluates AI-generated health answers. Tagline: "Truth in Filipino health data." Contact by email only: cbernardo@vericeus.com
 
 ## Services
 
-- [Clinical content and review](https://vericeus.com/#services): Clinically reviewed healthcare writing, SEO, AEO and GEO content, health-tech copy, and clinical content audits.
 - [Clinical AI evaluation](https://vericeus.com/#services): Expert review of AI-generated medical answers, with rubrics, error categories, and testing for Filipino context (Tagalog and Taglish questions, local disease burden, Philippine clinical guidelines).
 - [Health data and AI strategy](https://vericeus.com/#services): Feasibility and planning for using Philippine health data responsibly, including Data Privacy Act governance, consent, partner mapping, and pilot scoping. Not legal advice.
 - [Mission](https://vericeus.com/#mission): Filipino health data, for Filipinos.
